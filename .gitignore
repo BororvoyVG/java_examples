@@ -1,0 +1,20 @@
+﻿﻿chromedriver.log
+/drivers
+.idea
+/target
+*.iml
+*.log
+pom.xml.versionsBackup
+*.class
+# Package Files #
+*.jar
+*.war
+*.ear
+/output
+/out
+/classes
+/.idea
+# Gradle #
+/.gradle/
+/build/
+.gradletasknamecache
