@@ -23,6 +23,14 @@ public class Main {
         Shirt shirt2 = (Shirt) reallyAShirt;
         shirt2.setPattern("Solid");
         System.out.println("Pattern = " + shirt2.getPattern());
+
+        ClothingItem[] items =new ClothingItem[3];
+        items[0] = new ClothingItem("Shirt","L",15) {
+            @Override
+            public double getPrice() {
+                return this.getPrice();
+            }
+        };
     }
 
     private static void displayProduct(Product product) {
