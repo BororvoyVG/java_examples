@@ -16,5 +16,5 @@ dependencies {
     compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.19'
     annotationProcessor 'org.projectlombok:lombok'
     testAnnotationProcessor 'org.projectlombok:lombok'
-
+    compile group: 'com.google.code.gson', name: 'gson', version: '2.8.6'
 }
